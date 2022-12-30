@@ -1,0 +1,80 @@
+.calcolatrice{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border:2px soldi grey;
+    border:5px solid black;
+    grid-template-columns: 50px 50px 50px 50px;
+    width:200px;
+    grid-template-areas: "calcolo . . ."
+    "piu meno moltiplica dividi"
+    "sette otto nove uguale"
+    "quattro cinque sei uguale"
+    "uno due tre uguale"
+    "zero punto AC uguale";
+}
+div{
+    border: 2px solid gray;
+}
+.uguale{
+    background-color: rgb(255, 134, 134);
+     grid-area: uguale;
+}
+.calcolo{
+    background-color:  rgb(122, 122, 122);
+    color:white;
+    grid-area: calcolo;
+    width:196px;
+ 
+}
+.piu{
+    grid-area: piu;
+    background-color: rgb(161, 161, 161);
+}
+.meno{
+    grid-area: meno;
+    background-color: rgb(161, 161, 161);
+}
+.moltiplica{
+    grid-area: moltiplica;
+    background-color: rgb(161, 161, 161);
+}
+.dividi{
+    grid-area: dividi;
+    background-color: rgb(161, 161, 161);
+}
+.sette{
+    grid-area: sette;
+}
+.otto{
+    grid-area: otto;
+}
+.nove{
+    grid-area: nove;
+}
+.quattro{
+    grid-area: quattro;
+}
+.cinque{
+    grid-area: cinque;
+}
+.sei{
+    grid-area: sei;
+}
+.uno{
+    grid-area: uno;
+}
+.due{
+    grid-area: due;
+}
+.tre{
+    grid-area: tre;
+}
+.zero{
+    grid-area: zero;
+}
+.punto{
+    grid-area: punto;
+}
+.AC{
+    grid-area: AC;
+}
