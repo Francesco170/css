@@ -1,0 +1,67 @@
+.Navbar{
+    font-family: sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(35, 35, 35);
+}
+
+.Navbar_name{
+    color: white;
+}
+button{
+    background-color:rgb(35,35,35);
+   
+}
+.search{
+    border-color: rgb(2, 156, 2);
+    color: rgb(2, 156, 2); 
+}
+
+.search:hover{
+    background-color: green;
+    color: white;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+    border-style: none;
+    
+}
+a:link {
+    text-decoration: none;}
+.link{
+    color: rgb(163, 163, 163);
+    text-decoration:underline none;
+    border-style: none;
+}
+
+.disabled_button{
+    color: rgb(163, 163, 163);
+    border-style: none;
+}
+.dropdown{
+    color: rgb(163,163,163);
+    border-style: none;
+}
+#hamburger-menu{
+    display: none;
+}
+
+@media(max-width: 768px){
+    #hamburger-menu {
+        width: 50px;
+        height: 50px;
+        display: block;
+        padding: 0px;
+        margin: 20px;
+        color: rgb(43, 4, 219);
+        background-color: white;
+        
+        
+    }
+    .Navbar{
+        display: none;
+    }
+}
